@@ -1,0 +1,20 @@
+{
+  "name": "hegel-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "@hegel/cli": "0.0.45",
+    "@hegel/typings": "0.0.45",
+    "flow-remove-types": "^2.128.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "hegel",
+    "build": "flow-remove-types src/ --out-dir dst/ --all"
+  },
+  "keywords": [],
+  "author": "alextanhongpin <alextan220990@gmail.com>",
+  "license": "ISC"
+}
